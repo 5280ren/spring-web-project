@@ -1,0 +1,40 @@
+.form{  border:solid #6091d3;
+        height:1750px;
+        width:1000px;
+        position: relative;
+        margin:0 auto;
+         background-color:aqua;}       /*全体のブロック*/
+
+.top{ padding: 0.5em;
+  background: #a6d3c8;
+  color: white;
+  width:300px;
+  position:absolute; left:20px; top:50px; }
+
+.top:befor{ border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px ;}
+
+ .picuture{height:1750px;
+         text-align:center;
+         width:597px;
+         display:inline-block;
+         position:absolute; left:400px;
+         border-left:solid red;
+         background-color:white;}                            /*画像と商品一覧*/
+
+  .img{width:200px;
+        height:200px;
+        display:inline-block;
+        padding:10px;}
+
+
+    h2{color:red;}
+
+
+
+.footer {position:absolute; top:200px;
+         border: solid #6091d3;
+         padding:20px;
+         margin:20px;}                            /*検索欄*/
+

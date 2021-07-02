@@ -1,0 +1,22 @@
+h1{ padding: 0.5em;
+  background: #a6d3c8;
+  color: white; }
+
+h1:befor{ border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px ;}
+
+
+ .top{ text-align: center;
+       border:solid #6091d3;
+        height:750px;        /*width除去*/
+       margin:0 auto;
+       padding: 20px; }
+
+        button{ font-size: 0.7em;
+            padding: 10px;
+            background-color: #668ad8;
+            color:#fff; }
+
+    button:hover{ background-color: #24d;
+                 color:#fff }

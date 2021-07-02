@@ -1,0 +1,40 @@
+.top{ text-align: center;
+       border:solid #6091d3;
+        height:750px;        /*width除去*/
+       margin:0 auto;
+       padding: 20px; }
+
+ .footer{padding:40px;
+         box-sizing:border-box;
+         transition: 0.3s;
+         color: red; }
+
+   h1{ padding: 0.5em;
+  background: red;
+  color: white;}
+
+h1:befor{ border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px rgb(149, 158, 155);}
+
+  input{height:30px;}
+
+  .bottom{ position:absolute; bottom:200px;
+           padding-left:150px;}
+
+   button {
+	text-decoration: none;
+	background: #668ad8; /*ボタン色*/
+	color: #FFF;
+	border-bottom: solid 4px #627295;
+	border-radius: 3px;
+}
+
+button:active {
+	border-bottom: none; /*線を消す*/
+}
+
+button:hover {
+	background-color: #24d;
+	color: #fff
+}

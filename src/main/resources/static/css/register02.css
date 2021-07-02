@@ -1,0 +1,32 @@
+.form{ text-align: center;
+       border:solid #6091d3;
+       width:400px; height:450px;
+       margin:0 auto;
+       padding: 20px; }
+
+ h1{ padding: 0.5em;
+  background: #a6d3c8;
+  color: white;}
+
+h1:befor{ border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px rgb(149, 158, 155);}
+
+  .middle[type='text']:focus{border: 1px solid #da3c41;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(218,60,65, .5);
+	padding-bottom:20px;}
+
+input{height:30px;}
+
+.bottom{padding-top: 30px; }
+
+ .button{text-decoration:none;
+         background: #668ad8;
+         color:white;
+         border-bottom: solid 2px #627295;}
+
+  .button:hover{background-color: #24d;
+                color:white;}
+
+.footer{ text-align: right; }
